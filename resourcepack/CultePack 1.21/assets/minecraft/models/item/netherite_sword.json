@@ -1,0 +1,17 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/netherite_sword"
+	},
+	"overrides": [
+
+	
+		{ "predicate": { "custom_model_data": 6660102}, "model": "item/netherite_sword/netherite_sword" },
+		{ "predicate": { "custom_model_data": 6660103}, "model": "item/netherite_sword/marteau" },
+		{ "predicate": { "custom_model_data": 6660104}, "model": "item/netherite_sword/eternalsword" },
+		{ "predicate": { "custom_model_data": 6660105}, "model": "item/netherite_sword/faucheuse" }
+	
+		
+	]
+
+}

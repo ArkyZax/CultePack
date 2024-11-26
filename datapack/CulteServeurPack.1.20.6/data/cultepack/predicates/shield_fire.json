@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"type": "minecraft:player",
+		"type_specific": {
+			"type": "player"
+		},
+		"equipment": {
+			"offhand": {
+				"components": {
+					"minecraft:custom_data": {
+						"Tags": [
+						  "shield_fire_res"
+						]
+					  }
+					}
+			}
+		}
+	}
+}

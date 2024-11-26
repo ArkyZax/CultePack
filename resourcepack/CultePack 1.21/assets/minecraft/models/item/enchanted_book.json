@@ -1,0 +1,14 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/enchanted_book"
+	},
+	"overrides": [
+
+	
+		{ "predicate": { "custom_model_data": 88001}, "model": "item/enchanted_book/livre_base" }
+	
+		
+	]
+
+}

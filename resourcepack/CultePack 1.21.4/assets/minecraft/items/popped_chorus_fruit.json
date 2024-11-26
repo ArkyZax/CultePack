@@ -1,0 +1,153 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {	
+			"type": "model",
+			"model": "item/popped_chorus_fruit"
+	 	 },
+	  
+	  "cases": [
+		{
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/rune_invoc"
+			},
+			"when": [
+			  "rune_invoc"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/3explosion"
+			},
+			"when": [
+			  "cristal_3explosion"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/golem"
+			},
+			"when": [
+			  "cristal_golem"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/crystal_tp"
+			},
+			"when": [
+			  "cristal_tp"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/xp"
+			},
+			"when": [
+			  "cristal_xp"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/chien_up_1"
+			},
+			"when": [
+			  "chien_1"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/chien_up_2"
+			},
+			"when": [
+			  "chien_2"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/chien_up_3"
+			},
+			"when": [
+			  "chien_3"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/chien_up_4"
+			},
+			"when": [
+			  "chien_4"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/chien_up_5"
+			},
+			"when": [
+			  "chien_5"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/chien_up_6"
+			},
+			"when": [
+			  "chien_6"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/cristal_aimant"
+			},
+			"when": [
+			  "cristal_aimant"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/bague_feu"
+			},
+			"when": [
+			  "bague_feu"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/bague_enchant"
+			},
+			"when": [
+			  "bague_enchant"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/popped_chorus_fruit/bague_riche"
+			},
+			"when": [
+			  "bague_riche"
+			]
+		  }
+
+
+
+		
+
+	]
+}
+}

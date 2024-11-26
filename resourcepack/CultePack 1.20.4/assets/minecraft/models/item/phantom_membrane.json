@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/phantom_membrane"
+	},
+	"overrides": [
+
+	
+		{ "predicate": { "custom_model_data": 77702}, "model": "item/phantom_membrane/piece_armure" }
+	]
+
+}

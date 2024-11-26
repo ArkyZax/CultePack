@@ -1,0 +1,17 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	"overrides": [
+
+	
+		{ "predicate": { "custom_model_data": 6660101}, "model": "item/carrot_on_a_stick/base" },
+		{ "predicate": { "custom_model_data": 6660102}, "model": "item/carrot_on_a_stick/triple_explo" },
+		{ "predicate": { "custom_model_data": 6660103}, "model": "item/carrot_on_a_stick/teleportation" },
+		{ "predicate": { "custom_model_data": 6660104}, "model": "item/carrot_on_a_stick/invocation_golem" },
+		{ "predicate": { "custom_model_data": 6660105}, "model": "item/carrot_on_a_stick/experience" },
+		{ "predicate": { "custom_model_data": 6660106}, "model": "item/carrot_on_a_stick/aimant" }
+	]
+
+}

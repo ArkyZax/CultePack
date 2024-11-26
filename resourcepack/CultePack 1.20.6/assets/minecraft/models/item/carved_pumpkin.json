@@ -1,0 +1,53 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/carved_pumpkin"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 0 }, "model": "block/carved_pumpkin" },
+		{ "predicate": { "custom_model_data": 1 }, "model": "hat/sombrero" },
+		{ "predicate": { "custom_model_data": 2 }, "model": "hat/adventure_time" },
+		{ "predicate": { "custom_model_data": 3 }, "model": "hat/phantom_hide" },
+		{ "predicate": { "custom_model_data": 4 }, "model": "hat/pillager_hat" },
+		{ "predicate": { "custom_model_data": 5 }, "model": "hat/plague_cleric" },
+		{ "predicate": { "custom_model_data": 6 }, "model": "hat/king_trisekiel" },
+		{ "predicate": { "custom_model_data": 7 }, "model": "hat/kia_hat" },
+		{ "predicate": { "custom_model_data": 8 }, "model": "hat/warden_hide_hat" },
+		{ "predicate": { "custom_model_data": 9 }, "model": "hat/ftp" },
+		{ "predicate": { "custom_model_data": 10 }, "model": "hat/spider_boy" },
+		{ "predicate": { "custom_model_data": 11 }, "model": "hat/roi_zombie" },
+		{ "predicate": { "custom_model_data": 12 }, "model": "hat/roi_zombie_main" },
+		{ "predicate": { "custom_model_data": 13 }, "model": "hat/zombie_mutant_tete" },
+		{ "predicate": { "custom_model_data": 14 }, "model": "hat/zombie_mutant" },
+		{ "predicate": { "custom_model_data": 15 }, "model": "hat/zombie_mutant_2" },
+		{ "predicate": { "custom_model_data": 16 }, "model": "hat/crown" },
+		{ "predicate": { "custom_model_data": 17 }, "model": "tableaux/tableau_max" },
+		{ "predicate": { "custom_model_data": 18 }, "model": "hat/admin_crown" },
+		{ "predicate": { "custom_model_data": 19 }, "model": "tableaux/tableau_invoc" },
+		{ "predicate": { "custom_model_data": 20 }, "model": "tableaux/tableau_forge" },
+		{ "predicate": { "custom_model_data": 21 }, "model": "tableaux/tableau_bastion" },
+		{ "predicate": { "custom_model_data": 22 }, "model": "tableaux/tableau_boat" },
+		{ "predicate": { "custom_model_data": 23 }, "model": "tableaux/tableau_bunker" },
+		{ "predicate": { "custom_model_data": 24 }, "model": "tableaux/tableau_chateau" },
+		{ "predicate": { "custom_model_data": 25 }, "model": "tableaux/tableau_glacon" },
+		{ "predicate": { "custom_model_data": 26 }, "model": "tableaux/tableau_iceberg" },
+		{ "predicate": { "custom_model_data": 27 }, "model": "tableaux/tableau_ile" },
+		{ "predicate": { "custom_model_data": 28 }, "model": "tableaux/tableau_ile_big" },
+		{ "predicate": { "custom_model_data": 28 }, "model": "tableaux/tableau_petit_village" },
+		{ "predicate": { "custom_model_data": 29 }, "model": "tableaux/tableau_ruine" },
+		{ "predicate": { "custom_model_data": 30 }, "model": "tableaux/tableau_troll" },
+		{ "predicate": { "custom_model_data": 31 }, "model": "tableaux/tableau_trou_infeste" },
+		{ "predicate": { "custom_model_data": 32 }, "model": "tableaux/tableau_trou_sorciere" },
+		{ "predicate": { "custom_model_data": 33 }, "model": "tableaux/tableau_arbre" },
+		{ "predicate": { "custom_model_data": 34 }, "model": "tableaux/tableau_skeleton" },
+		{ "predicate": { "custom_model_data": 35 }, "model": "tableaux/tableau_wither" },
+		{ "predicate": { "custom_model_data": 36 }, "model": "hat/meteorite" },
+		{ "predicate": { "custom_model_data": 37 }, "model": "hat/boss_5_c" },
+		{ "predicate": { "custom_model_data": 38 }, "model": "item/statue/statue_og" }
+
+
+
+		
+
+	]
+}

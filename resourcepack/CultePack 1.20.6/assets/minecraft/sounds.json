@@ -1,0 +1,44 @@
+{
+  "montagnes": {
+    "sounds": [
+      {
+    "name":"montagnes",
+    "stream":"true"
+      }
+  ]
+  },
+  "zone_morte": {
+    "sounds": [
+      {
+    "name":"zone_morte",
+    "stream":"true"
+      }
+  ]
+  },
+  "marais": {
+    "sounds": [
+      {
+    "name":"marais",
+    "stream":"true"
+      }
+  ]
+  },
+  "loups": {
+    "sounds": [
+      {
+    "name":"loups",
+    "stream":"true"
+      }
+  ]
+  },
+  "meteorite": {
+    "sounds": [
+      {
+    "name":"meteorite",
+    "stream":"true"
+      }
+  ]
+  }
+
+
+}

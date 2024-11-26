@@ -1,0 +1,26 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/popped_chorus_fruit"
+	},
+	"overrides": [
+
+	
+		{ "predicate": { "custom_model_data": 77701}, "model": "item/popped_chorus_fruit/rune_invoc" },
+		
+		{ "predicate": { "custom_model_data": 77703}, "model": "item/popped_chorus_fruit/3explosion" },
+		{ "predicate": { "custom_model_data": 77704}, "model": "item/popped_chorus_fruit/golem" },
+		{ "predicate": { "custom_model_data": 77705}, "model": "item/popped_chorus_fruit/crystal_tp" },
+		{ "predicate": { "custom_model_data": 77706}, "model": "item/popped_chorus_fruit/xp" },
+		{ "predicate": { "custom_model_data": 77707}, "model": "item/popped_chorus_fruit/chien_up_1" },
+		{ "predicate": { "custom_model_data": 77708}, "model": "item/popped_chorus_fruit/chien_up_2" },
+		{ "predicate": { "custom_model_data": 77709}, "model": "item/popped_chorus_fruit/chien_up_3" },
+		{ "predicate": { "custom_model_data": 77710}, "model": "item/popped_chorus_fruit/chien_up_4" },
+		{ "predicate": { "custom_model_data": 77711}, "model": "item/popped_chorus_fruit/chien_up_5" },
+		{ "predicate": { "custom_model_data": 77712}, "model": "item/popped_chorus_fruit/chien_up_6" },
+		{ "predicate": { "custom_model_data": 77713}, "model": "item/popped_chorus_fruit/cristal_aimant" },
+		{ "predicate": { "custom_model_data": 77714}, "model": "item/popped_chorus_fruit/bague_feu" },
+		{ "predicate": { "custom_model_data": 77715}, "model": "item/popped_chorus_fruit/bague_riche" }
+	]
+
+}

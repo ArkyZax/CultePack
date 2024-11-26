@@ -1,0 +1,16 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "cultepack:livre/page_1.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": [
+                "\uAAA1"
+            ]
+        }
+   
+   
+   
+    ]
+}

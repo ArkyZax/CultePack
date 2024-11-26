@@ -1,0 +1,202 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+			  "min": 1,
+			  "max": 1
+			},
+			"entries": [
+			  {
+				"weight" : 1,
+				"type": "minecraft:loot_table",
+				"value": "cultepack:entities/map"
+			  },
+			  {
+				"weight" : 6,
+				"type": "minecraft:loot_table",
+				"value": "cultepack:entities/vide"
+			  }
+			]
+		  },
+		{
+			
+			"rolls": {
+				"min": 3,
+				"max": 4
+			},
+			"entries": [
+                {
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:crimson_hyphae",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 20,
+								"max": 60
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:cobweb",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 35,
+								"max": 57
+							}
+						}
+					]
+				},
+				
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:amethyst_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:golden_apple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_name": "[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[POISON]\",\"italic\":true,\"color\":\"dark_red\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Donne un effet de\"}]",
+								  "[{\"text\":\"poison resistance\",\"italic\":true},{\"text\":\"\",\"italic\":false}]",
+								  "[{\"text\":\"\",\"italic\":false}]"
+								],
+								"minecraft:base_color": "lime",
+								"minecraft:banner_patterns": [
+								  {
+									"color": "green",
+									"pattern": "gradient"
+								  },
+								  {
+									"color": "green",
+									"pattern": "gradient_up"
+								  },
+								  {
+									"color": "black",
+									"pattern": "border"
+								  },
+								  {
+									"color": "black",
+									"pattern": "rhombus"
+								  },
+								  {
+									"color": "black",
+									"pattern": "creeper"
+								  },
+								  {
+									"color": "lime",
+									"pattern": "flower"
+								  },
+								  {
+									"color": "green",
+									"pattern": "skull"
+								  },
+								  {
+									"color": "lime",
+									"pattern": "circle"
+								  },
+								  {
+									"color": "lime",
+									"pattern": "stripe_middle"
+								  }
+								],
+								"minecraft:custom_data": {
+								  "Tags": [
+									"shield_poison_res"
+								  ]
+								}
+							  }
+						  }
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 16,
+								"max": 32
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Épée empoisonnée\",\"italic\":false,\"color\":\"green\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Elle donne à vos\",\"italic\":false}]",
+								  "[{\"text\":\"ennemis un effet poison \",\"italic\":false}]"
+								],
+								"minecraft:custom_model_data": 6660104,
+								"minecraft:custom_data": {
+								  "Tags": [
+									"poison_sword"
+								  ]
+								}
+							  }
+						}
+					]
+				}
+			]
+		}
+	]
+}

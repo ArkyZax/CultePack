@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"bague_feu\"],CustomModelData:77714,display:{Name:'[{\"text\":\"Bague de Feu\",\"italic\":false,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Cosmétique\",\"color\":\"yellow\"}]']}}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"bague_riche\"],CustomModelData:77715,display:{Name:'[{\"text\":\"Bague de Richesse\",\"italic\":false,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Cosmétique\",\"color\":\"yellow\"}]']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

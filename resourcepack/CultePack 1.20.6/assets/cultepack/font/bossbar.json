@@ -1,0 +1,79 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "cultepack:gui/bossbar/spawn.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "cultepack:gui/bossbar/gros_pigeon.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "cultepack:gui/bossbar/gros_pigeon_2.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "cultepack:gui/bossbar/spider_boy.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "cultepack:gui/bossbar/roi_zombie.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "cultepack:gui/bossbar/roi_zombie_2.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "cultepack:gui/bossbar/zombie_mutant.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "cultepack:gui/bossbar/wither_dechu.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF8"
+            ]
+        }
+   
+   
+   
+    ]
+}

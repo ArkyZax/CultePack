@@ -69,27 +69,16 @@
           "type": "minecraft:weighted_state_provider",
           "entries": [
             {
+              "weight": 6,
+              "data": {
+                "Name": "minecraft:grass_block"
+              }
+            },
+            
+            {
               "weight": 2,
               "data": {
                 "Name": "minecraft:stone"
-              }
-            },
-            {
-              "weight": 6,
-              "data": {
-                "Name": "minecraft:andesite"
-              }
-            },
-            {
-              "weight": 4,
-              "data": {
-                "Name": "minecraft:glowstone"
-              }
-            },
-            {
-              "weight": 4,
-              "data": {
-                "Name": "minecraft:mossy_cobblestone"
               }
             }
           ]

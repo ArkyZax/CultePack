@@ -46,6 +46,7 @@
     "carvers": [],
     "features": [
         ["cultepack:sapin"],
+        ["cultepack:sapin_2"],
         [
          "minecraft:dripstone_cluster",
          "minecraft:large_dripstone",

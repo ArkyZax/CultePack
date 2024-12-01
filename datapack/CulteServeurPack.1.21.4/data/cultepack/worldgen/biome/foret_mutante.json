@@ -58,11 +58,14 @@
 		"minecraft:sea_pickle"
 		],
 		[
+		"cultepack:mutant_stone_to_lush",
+		
 		"minecraft:lush_caves_ceiling_vegetation",
 		"minecraft:sea_pickle",
         "minecraft:seagrass_river"
 		],
 		["cultepack:ile_arbre_3",
+		"cultepack:mutant_clay_tree",
 		"minecraft:sea_pickle"],
 		["cultepack:bedrock"]
 	]

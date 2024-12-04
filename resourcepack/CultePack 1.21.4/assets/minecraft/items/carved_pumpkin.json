@@ -193,6 +193,15 @@
 		  {
 			"model": {
 			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_portail"
+			},
+			"when": [
+			  "tableau_portail"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
 			  "model": "tableaux/tableau_bastion"
 			},
 			"when": [

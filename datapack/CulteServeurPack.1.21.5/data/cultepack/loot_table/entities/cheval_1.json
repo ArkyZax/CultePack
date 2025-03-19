@@ -11,15 +11,15 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Cheval Invocable\",\"italic\":false,\"color\":\"gold\"}]",
+								"minecraft:custom_name": [{text:'Cheval Invocable',italic:false,color:gold}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Tue moi si tu veux !\",\"italic\":false}]",
-								  "[{\"text\":\"Mais ne m abandonne pas !\",\"italic\":false}]",
-								  "[{\"text\":\"\",\"italic\":false}]",
-								  "[{\"text\":\"\",\"italic\":false}]",
-								  "[{\"text\":\"Lorsqu il meurt il\",\"italic\":true,\"color\":\"dark_gray\"}]",
-								  "[{\"text\":\"vous donne à nouveau\",\"italic\":true,\"color\":\"dark_gray\"}]",
-								  "[{\"text\":\"son oeuf.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+									[{text:'Tue moi si tu veux !',italic:false}],
+									[{text:'Mais ne m abandonne pas !',italic:false}],
+									[{text:'  ',italic:false}],
+									[{text:'  ',italic:false}],
+									[{text:'Lorsqu il meurt il',italic:true,color:dark_gray}],
+									[{text:'vous donne à nouveau',italic:true,color:dark_gray}],
+									[{text:'son oeuf.',italic:true,color:dark_gray}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [
@@ -30,12 +30,14 @@
 								  "DeathLootTable": "cultepack:entities/cheval_1",
 								  "id": "horse",
 								  "Variant": 0,
-								  "SaddleItem": {
-									"id": "saddle",
-									"Count": 1
+								  "equipment": {
+									"saddle": {
+									  "id": "minecraft:saddle",
+									  "count": 1
+									}
 								  },
 								  "Tame": true,
-								  "CustomName": "[{\"text\":\"Fidèle Destrier\",\"color\":\"gold\"}]",
+								  "CustomName": [{text:'Fidèle Destrier',color:gold}],
 								  "CustomNameVisible": true,
 								  "Health": 10,
 								  "PersistenceRequired": true,

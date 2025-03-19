@@ -1,0 +1,60 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {	
+			"type": "model",
+			"model": "item/netherite_sword"
+	 	 },
+	  
+	
+	
+	  "cases": [
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "item/epee/netherite_sword"
+		  },
+		  "when": [
+			"demoniaque"
+		  ]
+		},
+		{
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/epee/marteau"
+			},
+			"when": [
+			  "marteau"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/epee/eternalsword"
+			},
+			"when": [
+			  "eternalsword"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/epee/faucheuse"
+			},
+			"when": [
+			  "faucheuse"
+			]
+		  }
+	  ]
+	}
+  }
+  
+
+
+
+
+
+
+
+	

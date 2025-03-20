@@ -11,12 +11,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Snoop Statue\",\"italic\":false,\"color\":\"aqua\"}]",
+								"minecraft:custom_name": [{text:'Snoop Statue',italic:false,color:aqua}],
 								"minecraft:lore": [
-								  "[{\"text\":\"\",\"italic\":false}]",
-								  "[{\"text\":\"Clique droit pour la poser.\",\"italic\":true,\"color\":\"yellow\"}]",
-								  "[{\"text\":\"Sneak dessus pour la ramasser.\",\"italic\":true,\"color\":\"yellow\"}]",
-								  "[{\"text\":\"S'anime à moins de 10 blocs.\",\"italic\":true,\"color\":\"yellow\"}]"
+								  [{text:'',italic:false}],
+								  [{text:'Clique droit pour la poser.',italic:true,color:yellow}],
+								  [{text:'Sneak dessus pour la ramasser.',italic:true,color:yellow}],
+								  [{text:'S\'anime à moins de 10 blocs.',italic:true,color:yellow}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [
@@ -30,11 +30,9 @@
 								  "Tags": [
 									"statue"
 								  ],
-								  "ArmorItems": [
-									{},
-									{},
-									{},
-									{
+								  "equipment": {
+									"head":{
+									
 									  "id": "carved_pumpkin",
 									  "components":{
 										"custom_model_data":{
@@ -45,13 +43,7 @@
 									  },
 									  "count": 1
 									}
-								  ],
-								  "ArmorDropChances": [
-									0,
-									0,
-									0,
-									0
-								  ]
+								}
 								}
 							  }
 						}

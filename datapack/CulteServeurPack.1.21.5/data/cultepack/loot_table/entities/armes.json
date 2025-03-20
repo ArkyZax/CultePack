@@ -12,10 +12,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Épée Démoniaque\",\"italic\":false,\"color\":\"dark_red\"}]",
+								"minecraft:custom_name": [{text:'Épée Démoniaque',italic:false,color:dark_red}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Épée surpuissante,\",\"italic\":false}]",
-								  "[{\"text\":\"forgé depuis l'End\",\"italic\":false}]"
+								[{text:'Épée surpuissante,',italic:false}],
+								[{text:'forgé depuis l\'End',italic:false}]
 								],
 								"minecraft:attribute_modifiers": [
 								  {
@@ -57,10 +57,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Marteau Démoniaque\",\"italic\":false,\"color\":\"dark_red\"}]",
+								"minecraft:custom_name": [{text:'Marteau Démoniaque',italic:false,color:dark_red}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Marteau Légendaire,\",\"italic\":false}]",
-								  "[{\"text\":\"forgé depuis l'End\",\"italic\":false}]"
+								  [{text:'Marteau Légendaire,',italic:false}],
+								  [{text:'forgé depuis l\'End',italic:false}]
 								],
 								"minecraft:attribute_modifiers": [
 								  {
@@ -112,9 +112,9 @@
 								  "power": 6,
 								  "unbreaking": 6
 								},
-								"minecraft:custom_name": "[{\"text\":\"Arc Démoniaque\",\"italic\":false,\"color\":\"dark_red\",\"underlined\":false,\"bold\":false}]",
+								"minecraft:custom_name": [{text:'Arc Démoniaque',italic:false,color:dark_red,underlined:false,bold:false}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Arc du culte\",\"italic\":true,\"color\":\"yellow\"}]"
+								  [{text:'Arc du culte',italic:true,color:yellow}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [
@@ -141,10 +141,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Épée empoisonnée\",\"italic\":false,\"color\":\"green\"}]",
+								"minecraft:custom_name": [{text:'Épée empoisonnée',italic:false,color:green}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Elle donne à vos\",\"italic\":false}]",
-								  "[{\"text\":\"ennemis un effet poison \",\"italic\":false}]"
+								  [{text:'Elle donne à vos',italic:false}],
+								  [{text:'ennemis un effet poison',italic:false}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [
@@ -181,10 +181,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Faux De Glace\",\"italic\":false,\"color\":\"aqua\"}]",
+								"minecraft:custom_name": [{text:'Faux De Glace',italic:false,color:aqua}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Elle immobilise vos\",\"italic\":false}]",
-								  "[{\"text\":\"ennemis dans la neige\",\"italic\":false}]"
+								  [{text:'Elle immobilise vos',italic:false}],
+								  [{text:'ennemis dans la neige',italic:false}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [

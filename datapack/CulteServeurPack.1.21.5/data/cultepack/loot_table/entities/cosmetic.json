@@ -11,9 +11,9 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Bague de Feu\",\"italic\":false,\"color\":\"blue\"}]",
+								"minecraft:custom_name": [{text:'Bague de Feu',italic:false,color:blue}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Cosmétique\",\"color\":\"yellow\"}]"
+								  [{text:'Cosmétique',color:yellow}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [
@@ -41,9 +41,9 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Bague de Richesse\",\"italic\":false,\"color\":\"blue\"}]",
+								"minecraft:custom_name": [{text:'Bague de Richesse',italic:false,color:blue}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Cosmétique\",\"color\":\"yellow\"}]"
+								  [{text:'Cosmétique',color:yellow}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [

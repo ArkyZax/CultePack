@@ -12,10 +12,10 @@
 					    {
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Épée Démoniaque\",\"italic\":false,\"color\":\"dark_red\"}]",
+								"minecraft:custom_name": [{text:'Épée Démoniaque',italic:false,color:dark_red}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Épée surpuissante,\",\"italic\":false}]",
-								  "[{\"text\":\"forgé depuis l'End\",\"italic\":false}]"
+								  [{text:'Épée surpuissante,',italic:false}],
+								  [{text:'forgé depuis l\'End',italic:false}]
 								],
 								"minecraft:attribute_modifiers": [
 								  {
@@ -58,7 +58,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Couronne du\",\"italic\":false,\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Roi Zombie\",\"color\":\"dark_red\"}]",
+								"minecraft:custom_name": [{text:'Couronne du',italic:false,color:gold},{text:' '},{text:'Roi Zombie',color:dark_red}],
 								"minecraft:custom_model_data": {
 									"strings": [
 										"crown"
@@ -81,10 +81,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Tête du\",\"italic\":false,\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Roi Zombie\",\"color\":\"dark_red\"}]",
+								"minecraft:custom_name": [{text:'Tête du',italic:false,color:gold},{text:' '},{text:'Roi Zombie',color:dark_red}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Tête de Boss. Peut être\",\"italic\":false}]",
-								  "[{\"text\":\"utilisée comme chapeau.\",\"italic\":false}]"
+								  [{text:'Tête de Boss. Peut être',italic:false}],
+								  [{text:'utilisée comme chapeau.',italic:false}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [
@@ -149,15 +149,15 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Rune d'Armure\",\"italic\":false,\"color\":\"dark_red\"}]",
+								"minecraft:custom_name": [{text:'Rune d\'Armure',italic:false,color:dark_red}],
 								"minecraft:lore": [
-								  "[{\"text\":\"S'utilise à la forge\",\"italic\":false}]",
-								  "[{\"text\":\"de l'End pour améliorer\",\"italic\":false}]",
-								  "[{\"text\":\"l'armure Démoniaque.\",\"italic\":false}]",
-								  "[{\"text\":\"\",\"italic\":false}]",
-								  "[{\"text\":\"Donne à la pièce d'armure :\",\"italic\":true,\"color\":\"gray\"}]",
-								  "[{\"text\":\"-Protection X\",\"italic\":true,\"color\":\"gray\"}]",
-								  "[{\"text\":\"-Unbrealing X\",\"italic\":true,\"color\":\"gray\"}]"
+								  [{text:'S\'utilise à la forge',italic:false}],
+								  [{text:'de l\'End pour améliorer',italic:false}],
+								  [{text:'l\'armure Démoniaque.',italic:false}],
+								  [{text:'',italic:false}],
+								  [{text:'Donne à la pièce d\'armure :',italic:true,color:gray}],
+								  [{text:'-Protection X',italic:true,color:gray}],
+								  [{text:'-Unbrealing X',italic:true,color:gray}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [

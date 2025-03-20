@@ -4,7 +4,7 @@
 		"property": "custom_model_data",
 		"fallback": {	
 			"type": "model",
-			"model": "item/template_spawn_egg",
+			"model": "item/warden_spawn_egg",
 			"tints": [
 				{
 				  "type": "minecraft:constant",

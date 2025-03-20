@@ -25,7 +25,7 @@
 					},
 		"title": "§4Culte Pack",
 		"description": "§eLe pack du server",
-		"background": "minecraft:textures/entity/end_portal.png",
+		"background": "minecraft:entity/end_portal",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

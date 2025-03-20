@@ -121,13 +121,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_model_data": {
-									"strings": [
+								"strings": [
 									  "livre_base"
 									]
 								  },
-
 								"minecraft:lore": [
-								  "[{\"text\":\"-Bague\"}]"
+									[{text:'-Bague'}]
 								]
 							}
 						},
@@ -161,11 +160,11 @@
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Épée empoisonnée\",\"italic\":false,\"color\":\"green\"}]",
+						"components":{
+								"minecraft:custom_name": [{text:'Épée empoisonnée',italic:false,color:green}],
 								"minecraft:lore": [
-								  "[{\"text\":\"Elle donne à vos\",\"italic\":false}]",
-								  "[{\"text\":\"ennemis un effet poison \",\"italic\":false}]"
+								  [{text:'Elle donne à vos',italic:false}],
+								  [{text:'ennemis un effet poison',italic:false}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [

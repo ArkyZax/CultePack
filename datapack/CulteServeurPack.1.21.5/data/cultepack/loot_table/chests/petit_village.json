@@ -89,13 +89,13 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components":{
-                  "minecraft:custom_name": "[{\"text\":\"Cristal d'Aimant\",\"italic\":false,\"color\":\"gray\"}]",
-                  "minecraft:lore": [
-                    "[{\"text\":\"S'utilise à la forge\",\"italic\":false}]",
-                    "[{\"text\":\"de l'End pour améliorer\",\"italic\":false}]",
-                    "[{\"text\":\"le \",\"italic\":false},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \",\"color\":\"dark_purple\"},{\"text\":\"Base\",\"color\":\"light_purple\"}]"
-                  ],
+               "components":{
+								"minecraft:custom_name": [{text:'Cristal d\'Aimant',italic:false,color:gray}],
+								"minecraft:lore": [
+								  [{text:'S\'utilise à la forge',italic:false,color:dark_purple}],
+								  [{text:'de l\'End pour améliorer',italic:false,color:dark_purple}],
+								  [{text:'le ' ,italic:false,color:dark_purple},{text:'Sceptre de',color:gold},{text:' '},{text:'Base',color:light_purple},{text:'.'}]
+								],
                   "minecraft:custom_model_data": {
 									"strings": [
 									  "cristal_aimant"

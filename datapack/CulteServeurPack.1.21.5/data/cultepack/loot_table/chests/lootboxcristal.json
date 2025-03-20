@@ -12,11 +12,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Cristal Triple Explosion\",\"italic\":false,\"color\":\"dark_red\"}]",
+								"minecraft:custom_name": [{text:'Cristal Triple Explosion',italic:false,color:dark_red}],
 								"minecraft:lore": [
-								  "[{\"text\":\"S'utilise à la forge\",\"italic\":false,\"color\":\"dark_purple\"}]",
-								  "[{\"text\":\"de l'End pour améliorer\",\"italic\":false,\"color\":\"dark_purple\"}]",
-								  "[{\"text\":\"le \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Base\",\"color\":\"light_purple\"},{\"text\":\".\"}]"
+								  [{text:'S\'utilise à la forge',italic:false,color:dark_purple}],
+								  [{text:'de l\'End pour améliorer',italic:false,color:dark_purple}],
+								  [{text:'le ' ,italic:false,color:dark_purple},{text:'Sceptre de',color:gold},{text:' '},{text:'Base',color:light_purple},{text:'.'}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [
@@ -41,12 +41,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Cristal \",\"italic\":false,\"color\":\"green\"},{\"text\":\"d'Invocation\",\"color\":\"green\"},{\"text\":\" : \"},{\"text\":\"Iron Golem\",\"underlined\":true,\"color\":\"white\"}]",
+								"minecraft:custom_name": [{text:'Cristal ',italic:false,color:green},{text:'d\'Invocation',color:green},{text: ':' },{text:'Iron Golem',underlined:true,color:white}],
 								"minecraft:lore": [
-								  "[{\"text\":\"S'utilise à la forge\",\"italic\":false,\"color\":\"dark_purple\"}]",
-								  "[{\"text\":\"de l'End pour améliorer\",\"italic\":false,\"color\":\"dark_purple\"}]",
-								  "[{\"text\":\"le \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Base\",\"color\":\"light_purple\"},{\"text\":\".\"}]"
-								],
+									[{text:'S\'utilise à la forge',italic:false,color:dark_purple}],
+									[{text:'de l\'End pour améliorer',italic:false,color:dark_purple}],
+									[{text:'le ' ,italic:false,color:dark_purple},{text:'Sceptre de',color:gold},{text:' '},{text:'Base',color:light_purple},{text:'.'}]
+									],
 								"minecraft:custom_model_data": {
 									"strings": [
 									  "cristal_golem"
@@ -69,13 +69,13 @@
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Cristal de Téléportation\",\"italic\":false,\"color\":\"aqua\"}]",
+						"components":{
+								"minecraft:custom_name": [{text:'Cristal de Téléportation',italic:false,color:aqua}],
 								"minecraft:lore": [
-								  "[{\"text\":\"S'utilise à la forge\",\"italic\":false}]",
-								  "[{\"text\":\"de l'End pour améliorer\",\"italic\":false}]",
-								  "[{\"text\":\"le \",\"italic\":false},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \",\"color\":\"dark_purple\"},{\"text\":\"Base\",\"color\":\"light_purple\"}]"
-								],
+									[{text:'S\'utilise à la forge',italic:false,color:dark_purple}],
+									[{text:'de l\'End pour améliorer',italic:false,color:dark_purple}],
+									[{text:'le ' ,italic:false,color:dark_purple},{text:'Sceptre de',color:gold},{text:' '},{text:'Base',color:light_purple},{text:'.'}]
+									],
 								"minecraft:custom_model_data": {
 									"strings": [
 									  "cristal_tp"
@@ -98,12 +98,12 @@
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Cristal d'Éxperience\",\"italic\":false,\"color\":\"yellow\"}]",
+						"components":{
+								"minecraft:custom_name": [{text:'Cristal d\'Éxperience',italic:false,color:yellow}],
 								"minecraft:lore": [
-								  "[{\"text\":\"S'utilise à la forge\",\"italic\":false}]",
-								  "[{\"text\":\"de l'End pour améliorer\",\"italic\":false}]",
-								  "[{\"text\":\"le \",\"italic\":false},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \",\"color\":\"dark_purple\"},{\"text\":\"Base\",\"color\":\"light_purple\"}]"
+								  [{text:'S\'utilise à la forge',italic:false,color:dark_purple}],
+								  [{text:'de l\'End pour améliorer',italic:false,color:dark_purple}],
+								  [{text:'le ' ,italic:false,color:dark_purple},{text:'Sceptre de',color:gold},{text:' '},{text:'Base',color:light_purple},{text:'.'}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [
@@ -128,11 +128,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Cristal d'Aimant\",\"italic\":false,\"color\":\"gray\"}]",
+								"minecraft:custom_name": [{text:'Cristal d\'Aimant',italic:false,color:gray}],
 								"minecraft:lore": [
-								  "[{\"text\":\"S'utilise à la forge\",\"italic\":false}]",
-								  "[{\"text\":\"de l'End pour améliorer\",\"italic\":false}]",
-								  "[{\"text\":\"le \",\"italic\":false},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \",\"color\":\"dark_purple\"},{\"text\":\"Base\",\"color\":\"light_purple\"}]"
+								  [{text:'S\'utilise à la forge',italic:false,color:dark_purple}],
+								  [{text:'de l\'End pour améliorer',italic:false,color:dark_purple}],
+								  [{text:'le ' ,italic:false,color:dark_purple},{text:'Sceptre de',color:gold},{text:' '},{text:'Base',color:light_purple},{text:'.'}]
 								],
 								"minecraft:custom_model_data": {
 									"strings": [

@@ -85,14 +85,14 @@
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components": {
+						"components": {
 								"minecraft:custom_model_data": {
-									"strings": [
+								"strings": [
 									  "livre_base"
 									]
 								  },
 								"minecraft:lore": [
-								  "[{\"text\":\"-Bague\"}]"
+									[{text:'-Bague'}]
 								]
 							}
 						},

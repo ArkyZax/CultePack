@@ -1,6 +1,7 @@
 execute if entity @s[tag=!fire_ring] run summon armor_stand ~ ~2 ~ {Tags:["fire_r"],NoGravity:1b,Invisible:1b}
 execute if entity @s[tag=!fire_ring] run tag @s add fire_ring
-execute as @e[type=armor_stand,tag=fire_r,distance=..2.1] at @s rotated ~3 ~ run tp ~ ~ ~
+execute as @e[type=armor_stand,tag=fire_r,distance=..2.1] at @s run tp ~ ~ ~
+execute as @e[type=armor_stand,tag=fire_r,distance=..2.1] at @s run rotate @s ~3 ~
 
 
 execute as @e[type=armor_stand,tag=fire_r,distance=..2.1] at @s run particle minecraft:dust{color:[0.81,0.05,0.11],scale:1} ^0.75 ^0 ^-0.125 0 0 0 0 1 normal @a

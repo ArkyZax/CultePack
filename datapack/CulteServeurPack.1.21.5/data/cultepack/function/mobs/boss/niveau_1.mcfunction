@@ -4,7 +4,7 @@ clear @s minecraft:popped_chorus_fruit[custom_data={Tags:["pierre_invoc_1"]}] 1
 
 playsound entity.phantom.death ambient @s
 
-summon minecraft:phantom ~ ~20 ~ {Size:20,Health:400,CustomName:'[{"text":"GROS PIGEON","color":"dark_aqua","bold":true}]',CustomNameVisible:1b,Tags:["gros_pigeon"],attributes:[{id:"max_health",base:400f}]}
+summon minecraft:phantom ~ ~20 ~ {Size:20,Health:400,CustomName:[{text:'GROS PIGEON',"color":"dark_aqua","bold":true}],CustomNameVisible:1b,Tags:["gros_pigeon"],attributes:[{id:"max_health",base:400f}]}
 summon minecraft:phantom ~5 ~20 ~5
 summon minecraft:phantom ~5 ~20 ~-5
 summon minecraft:phantom ~-5 ~20 ~-5

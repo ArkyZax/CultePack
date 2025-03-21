@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "minecraft:blackstone"
+    },
+    "rim": {
+      "Name": "lava"
+    },
+    "size": 10,
+    "rim_size": 5
+  }
+}

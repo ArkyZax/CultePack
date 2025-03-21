@@ -67,6 +67,20 @@
 				{
 					"type": "minecraft:item",
 					"weight": 2,
+					"name": "minecraft:crying_obsidian",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 53
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
 					"name": "minecraft:enchanted_book",
 					"functions": [
 						{
@@ -141,6 +155,20 @@
 								  ]
 								}
 							  }
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:dragon_head",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
 						}
 					]
 				},

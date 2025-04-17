@@ -81,7 +81,9 @@
 		[
 		 "cultepack:zone_morte_stone_montagne",
 		 "cultepack:zone_morte_stone_montagne_2",
-		 "cultepack:ile_arbre_4"
+		 "cultepack:ile_arbre_4",
+		 "minecraft:patch_dead_bush",
+		 "minecraft:patch_dead_bush_2"
 		],
 		[],
 		["cultepack:pique_lave"],

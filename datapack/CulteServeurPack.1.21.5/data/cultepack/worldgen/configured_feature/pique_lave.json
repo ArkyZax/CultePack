@@ -39,7 +39,7 @@
 			"type": "minecraft:upwards_branching_trunk_placer",
 			"base_height": 5,
 			"height_rand_a": 2,
-			"height_rand_b": 10,
+			"height_rand_b": 15,
 			"extra_branch_steps": {
 				"type": "minecraft:uniform",
 					"min_inclusive": 1,

@@ -1,0 +1,39 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {	
+			"type": "model",
+			"model": "item/warden_spawn_egg",
+			"tints": [
+				{
+				  "type": "minecraft:constant",
+				  "value": 1001033
+				}
+			  ]
+			
+	 	 },
+	  
+	  "cases": [
+		{
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/oeuf/cheval"
+			},
+			"when": [
+			  "cheval"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/statue/statue_og"
+			},
+			"when": [
+			  "statue_og"
+			]
+		  }
+
+	]
+}
+}

@@ -1,0 +1,426 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {	
+			"type": "model",
+			"model": "block/carved_pumpkin"
+	 	 },
+	  
+	  "cases": [
+		{
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/sombrero"
+			},
+			"when": [
+			  "sombrero"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/adventure_time"
+			},
+			"when": [
+			  "adventure_time"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/phantom_hide"
+			},
+			"when": [
+			  "phantom_hide"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/pillager_hat"
+			},
+			"when": [
+			  "pillager_hat"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/plague_cleric"
+			},
+			"when": [
+			  "plague_cleric"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/king_trisekiel"
+			},
+			"when": [
+			  "king_trisekiel"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/kia_hat"
+			},
+			"when": [
+			  "kia_hat"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/warden_hide_hat"
+			},
+			"when": [
+			  "warden_hide_hat"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/ftp"
+			},
+			"when": [
+			  "ftp"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/spider_boy"
+			},
+			"when": [
+			  "spider_boy"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/roi_zombie"
+			},
+			"when": [
+			  "roi_zombie"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/roi_zombie_main"
+			},
+			"when": [
+			  "roi_zombie_main"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/zombie_mutant_tete"
+			},
+			"when": [
+			  "zombie_mutant_tete"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/zombie_mutant"
+			},
+			"when": [
+			  "zombie_mutant"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/zombie_mutant_2"
+			},
+			"when": [
+			  "zombie_mutant_2"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/crown"
+			},
+			"when": [
+			  "crown"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_max"
+			},
+			"when": [
+			  "tableau_max"
+			]
+		  },
+		  
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/admin_crown"
+			},
+			"when": [
+			  "admin_crown"
+			]
+		  }
+		  ,
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_invoc"
+			},
+			"when": [
+			  "tableau_invoc"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_forge"
+			},
+			"when": [
+			  "tableau_forge"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_portail"
+			},
+			"when": [
+			  "tableau_portail"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_bastion"
+			},
+			"when": [
+			  "tableau_bastion"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_boat"
+			},
+			"when": [
+			  "tableau_boat"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_bunker"
+			},
+			"when": [
+			  "tableau_bunker"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_chateau"
+			},
+			"when": [
+			  "tableau_chateau"
+			]
+		  }
+		  ,
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_glacon"
+			},
+			"when": [
+			  "tableau_glacon"
+			]
+		  }
+		  ,
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_iceberg"
+			},
+			"when": [
+			  "tableau_iceberg"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_ile"
+			},
+			"when": [
+			  "tableau_ile"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_ile_big"
+			},
+			"when": [
+			  "tableau_ile_big"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_ruine"
+			},
+			"when": [
+			  "tableau_ruine"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_troll"
+			},
+			"when": [
+			  "tableau_troll"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_trou_infeste"
+			},
+			"when": [
+			  "tableau_trou_infeste"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_trou_sorciere"
+			},
+			"when": [
+			  "tableau_trou_sorciere"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_arbre"
+			},
+			"when": [
+			  "tableau_arbre"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_skeleton"
+			},
+			"when": [
+			  "tableau_skeleton"
+			]
+		  }
+		  ,
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_wither"
+			},
+			"when": [
+			  "tableau_wither"
+			]
+		  }
+		  ,
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/meteorite"
+			},
+			"when": [
+			  "meteorite"
+			]
+		  }
+		  ,
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "hat/boss_5_c"
+			},
+			"when": [
+			  "boss_5_c"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/statue/statue_og"
+			},
+			"when": [
+			  "statue_og"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_big_temple"
+			},
+			"when": [
+			  "tableau_big_temple"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_temple"
+			},
+			"when": [
+			  "tableau_temple"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_village_ocean"
+			},
+			"when": [
+			  "tableau_village_ocean"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_petit_village"
+			},
+			"when": [
+			  "tableau_petit_village"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_village_magique"
+			},
+			"when": [
+			  "tableau_village_magique"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "tableaux/tableau_village_mutant"
+			},
+			"when": [
+			  "tableau_village_mutant"
+			]
+		}
+	  ]
+	}
+  }
+  

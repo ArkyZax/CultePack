@@ -93,7 +93,8 @@
 								  },
 								"minecraft:lore": [
 									{
-									  "text": "-Bague"
+									  "text": "-Bague",
+									  "italic" : false
 									}
 								]
 							}

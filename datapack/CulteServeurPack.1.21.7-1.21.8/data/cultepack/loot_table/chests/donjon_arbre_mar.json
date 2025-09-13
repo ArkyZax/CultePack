@@ -127,7 +127,8 @@
 								  },
 								"minecraft:lore": [
 									{
-									  "text": "-Bague"
+									  "text": "-Bague",
+									  "italic" : false
 									}
                   ]
 							}
@@ -170,10 +171,12 @@
 									},
 								"minecraft:lore": [
 									{
-									  "text": "Elle donne à vos"
+									  "text": "Elle donne à vos",
+									  "italic" : false
 									},
 									{
-									  "text": "ennemis un effet poison"
+									  "text": "ennemis un effet poison",
+									  "italic" : false
 									}
 								],
 								"minecraft:custom_model_data": {

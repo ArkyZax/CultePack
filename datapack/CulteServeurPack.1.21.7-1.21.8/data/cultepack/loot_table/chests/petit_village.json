@@ -98,27 +98,33 @@
 								"minecraft:lore": [
 									{
 									  "text": "S'utilise à la forge",
-									  "color":"dark_purple"
+									  "color":"dark_purple",
+									  "italic" : false
 									},
 									{
 									  "text": "de l'End pour améliorer",
-									  "color":"dark_purple"
+									  "color":"dark_purple",
+									  "italic" : false
 									},
 									[
 									{
 									  "text": "le ",
-									  "color":"dark_purple"
+									  "color":"dark_purple",
+									  "italic" : false
 									},
 									{
 									  "text": "Sceptre de ",
-									  "color":"gold"
+									  "color":"gold",
+									  "italic" : false
 									},
 									{
 									  "text": "Base",
-									  "color":"light_purple"
+									  "color":"light_purple",
+									  "italic" : false
 									},
 									{
-										"text" : "."
+										"text" : ".",
+									  "italic" : false
 									}
 									]	
 								],

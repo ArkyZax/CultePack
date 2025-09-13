@@ -193,16 +193,20 @@
 									},
 								"minecraft:lore": [
 									{
-									  "text": "S'utilise à la forge"
+									  "text": "S'utilise à la forge",
+									  "italic" : false
 									},
 									{
-									  "text": "de l'End pour améliorer"
+									  "text": "de l'End pour améliorer",
+									  "italic" : false
 									},	
 									{
-									  "text": "l'armure Démoniaque."
+									  "text": "l'armure Démoniaque.",
+									  "italic" : false
 									},
 									{
-									  "text": ""
+									  "text": "",
+									  "italic" : false
 									},
 									{
 									  "text": "Donne à la pièce d'armure :",
@@ -250,27 +254,33 @@
 								"minecraft:lore":[
 									{
 									  "text": "S'utilise à la forge",
-									  "color":"dark_purple"
+									  "color":"dark_purple",
+									  "italic" : false
 									},
 									{
 									  "text": "de l'End pour améliorer",
-									  "color":"dark_purple"
+									  "color":"dark_purple",
+									  "italic" : false
 									},
 									[
 									{
 									  "text": "le ",
-									  "color":"dark_purple"
+									  "color":"dark_purple",
+									  "italic" : false
 									},
 									{
 									  "text": "Sceptre de ",
-									  "color":"gold"
+									  "color":"gold",
+									  "italic" : false
 									},
 									{
 									  "text": "Base",
-									  "color":"light_purple"
+									  "color":"light_purple",
+									  "italic" : false
 									},
 									{
-										"text" : "."
+										"text" : ".",
+									  "italic" : false
 									}
 									]	
 								],
@@ -312,25 +322,31 @@
 									},
                                      "minecraft:lore": [
                           {
-									  "text": "Contient une âme"
+									  "text": "Contient une âme",
+									  "italic" : false
 									},
 									{
-									  "text": ""
+									  "text": "",
+									  "italic" : false
 									},{
 									  "text": "Utilisée à un Autel",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									},
 									{
 									  "text": "sacrificiel, libère un",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									},
                   {
 									  "text": "puissant boss au niveau",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									},
                   {
 									  "text": "de la pierre",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									}
                             ],
 								"minecraft:custom_model_data": {
@@ -363,25 +379,31 @@
 									},
                                         "minecraft:lore": [
                           {
-									  "text": "Contient une âme"
+									  "text": "Contient une âme",
+									  "italic" : false
 									},
 									{
-									  "text": ""
+									  "text": "",
+									  "italic" : false
 									},{
 									  "text": "Utilisée à un Autel",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									},
 									{
 									  "text": "sacrificiel, libère un",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									},
                   {
 									  "text": "puissant boss au niveau",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									},
                   {
 									  "text": "de la pierre",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									}
                                 ],
 								"minecraft:custom_model_data": {

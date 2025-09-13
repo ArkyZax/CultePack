@@ -110,7 +110,8 @@
 								  },
 								"minecraft:lore": [
 									{
-									  "text": "-Bague"
+									  "text": "-Bague",
+									  "italic" : false
 									}
                   ]
 							}
@@ -139,10 +140,12 @@
 									},
 								"minecraft:lore": [
 									{
-									  "text": "Elle immobilise vos"
+									  "text": "Elle immobilise vos",
+									  "italic" : false
 									},
 									{
-									  "text": "ennemis dans la neige"
+									  "text": "ennemis dans la neige",
+									  "italic" : false
 									}
 								],
 								"minecraft:custom_model_data": {

@@ -55,25 +55,31 @@
 									},
                                  "minecraft:lore": [
                           {
-									  "text": "Contient une âme"
+									  "text": "Contient une âme",
+									  "italic" : false
 									},
 									{
-									  "text": ""
+									  "text": "",
+									  "italic" : false
 									},{
 									  "text": "Utilisée à un Autel",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									},
 									{
 									  "text": "sacrificiel, libère un",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									},
                   {
 									  "text": "puissant boss au niveau",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									},
                   {
 									  "text": "de la pierre",
-									  "color":"dark_gray"
+									  "color":"dark_gray",
+									  "italic" : false
 									}
                                     ],
 									"minecraft:custom_model_data": {

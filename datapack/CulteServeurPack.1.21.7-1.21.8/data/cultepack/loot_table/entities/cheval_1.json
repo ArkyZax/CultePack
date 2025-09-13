@@ -18,10 +18,12 @@
 									},
 								"minecraft:lore": [
 									{
-									  "text": "Tue moi si tu veux !"
+									  "text": "Tue moi si tu veux !",
+									  "italic" : false
 									},
 									{
-									  "text": "Mais ne m'abandonne pas !"
+									  "text": "Mais ne m'abandonne pas !",
+									  "italic" : false
 									},
 									{
 									  "text": ""
@@ -31,15 +33,18 @@
 									},
 									{
 									  "text": "Lorsqu il meurt il",
-									  "color": "dark_gray"
+									  "color": "dark_gray",
+									  "italic" : false
 									},
 									{
 									  "text": "vous donne à nouveau",
-									  "color": "dark_gray"
+									  "color": "dark_gray",
+									  "italic" : false
 									},
 									{
 									  "text": "son oeuf",
-									  "color": "dark_gray"
+									  "color": "dark_gray",
+									  "italic" : false
 									}
 
 					

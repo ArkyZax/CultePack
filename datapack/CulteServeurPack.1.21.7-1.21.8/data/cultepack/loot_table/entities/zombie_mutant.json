@@ -24,10 +24,12 @@
 								], 
 								"minecraft:lore": [
 									{
-									  "text": "Tête de Boss. Peut être"
+									  "text": "Tête de Boss. Peut être",
+									  "italic" : false
 									},
 									{
-									  "text": "utilisée comme chapeau."
+									  "text": "utilisée comme chapeau.",
+									  "italic" : false
 									}
 								],
 								"minecraft:custom_model_data": {
@@ -59,16 +61,20 @@
 									},
 								"minecraft:lore": [
 									{
-									  "text": "S'utilise à la forge"
+									  "text": "S'utilise à la forge",
+									  "italic" : false
 									},
 									{
-									  "text": "de l'End pour améliorer"
+									  "text": "de l'End pour améliorer",
+									  "italic" : false
 									},	
 									{
-									  "text": "l'armure Démoniaque."
+									  "text": "l'armure Démoniaque.",
+									  "italic" : false
 									},
 									{
-									  "text": ""
+									  "text": "",
+									  "italic" : false
 									},
 									{
 									  "text": "Donne à la pièce d'armure :",

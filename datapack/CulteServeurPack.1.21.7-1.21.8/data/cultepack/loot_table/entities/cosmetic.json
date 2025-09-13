@@ -20,7 +20,8 @@
 								"minecraft:lore": [
 									{
 									  "text": "Cosmétique",
-									  "color":"yellow"
+									  "color":"yellow",
+									  "italic" : false
 									}
 								],
 								"minecraft:custom_model_data": {
@@ -58,7 +59,8 @@
 								"minecraft:lore": [
 									{
 									  "text": "Cosmétique",
-									  "color":"yellow"
+									  "color":"yellow",
+									  "italic" : false
 									}
 								],
 								"minecraft:custom_model_data": {

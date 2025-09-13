@@ -29,10 +29,12 @@
             "minecraft:lore":[
                  {
 									  "text": "Elle permet de retrouver votre",
-                    "color" : "yellow"
+                    "color" : "yellow",
+									  "italic" : false
 									},  {
 									  "text": "chemin jusqu'au spawn.",
-                    "color" : "yellow"
+                    "color" : "yellow",
+									  "italic" : false
 									}
           ]
         }

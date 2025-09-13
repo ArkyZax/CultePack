@@ -17,7 +17,8 @@
 								  },
                   "minecraft:lore": [
 									{
-									  "text": "-Bague"
+									  "text": "-Bague",
+									  "italic" : false
 									}
                   ]
                 }
@@ -49,7 +50,8 @@
                     },
                   "minecraft:lore": [
 									{
-									  "text": "-Bague"
+									  "text": "-Bague",
+									  "italic" : false
 									}
                   ]
                 }
@@ -81,7 +83,8 @@
                     },
                   "minecraft:lore": [
 									{
-									  "text": "-Bague"
+									  "text": "-Bague",
+									  "italic" : false
 									}
                   ]
                 }
@@ -113,7 +116,8 @@
                     },
                   "minecraft:lore": [
 									{
-									  "text": "-Bague"
+									  "text": "-Bague",
+									  "italic" : false
 									}
                   ]
                 }
@@ -145,7 +149,8 @@
                     },
                   "minecraft:lore": [
 									{
-									  "text": "-Bague"
+									  "text": "-Bague",
+									  "italic" : false
 									}
                   ]
                 }
@@ -177,7 +182,8 @@
 								  },
                   "minecraft:lore": [
 									{
-									  "text": "-Bague"
+									  "text": "-Bague",
+									  "italic" : false
 									}
                   ]
                 }
@@ -209,7 +215,8 @@
                     },
                   "minecraft:lore": [
 									{
-									  "text": "-Bague"
+									  "text": "-Bague",
+									  "italic" : false
 									}
                   ]
                 }
@@ -241,7 +248,8 @@
                     },
                   "minecraft:lore": [
 									{
-									  "text": "-Arc"
+									  "text": "-Arc",
+									  "italic" : false
 									}
                   ]
                 }

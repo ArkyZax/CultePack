@@ -24,8 +24,8 @@ execute as @e[type=armor_stand,tag=boss_5_c] at @s unless entity @e[type=wither,
 
 #coeur
 execute as @e[type=player,nbt={attributes:[{base:60d}]}] unless predicate cultepack:cultestuffon run function cultepack:events/coeur
-execute as @e[type=player,nbt={Inventory:[{id:"minecraft:netherite_chestplate"},{components:{"minecraft:custom_data":{Tags:["cultestuff"]}}}]}] at @s if predicate cultepack:cultestuffon run function cultepack:events/addcoeur
-execute as @e[type=player,nbt={Inventory:[{id:"minecraft:netherite_chestplate"},{components:{"minecraft:custom_data":{Tags:["cultestuff", "updated_1"]}}}]}] at @s if predicate cultepack:cultestuffon2 run function cultepack:events/addcoeur
+execute as @e[type=player,nbt={equipment:{chest:{id:"minecraft:netherite_chestplate",components:{"minecraft:custom_data":{Tags:["cultestuff"]}}}}}] at @s if predicate cultepack:cultestuffon run function cultepack:events/addcoeur
+execute as @e[type=player,nbt={equipment:{chest:{id:"minecraft:netherite_chestplate",components:{"minecraft:custom_data":{Tags:["cultestuff", "updated_1"]}}}}}] at @s if predicate cultepack:cultestuffon2 run function cultepack:events/addcoeur
 
 
 

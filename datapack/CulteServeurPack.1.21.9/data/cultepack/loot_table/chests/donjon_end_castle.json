@@ -1,0 +1,472 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+			  {
+				"type": "minecraft:loot_table",
+				"value": "cultepack:chests/potion",
+				"weight": 1
+			  },
+			  {
+				"type": "minecraft:empty",
+				"weight": 4 
+			  }
+			]
+		  },
+		  {
+			"rolls": {
+			  "min": 0,
+			  "max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:golden_apple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},	{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:skeleton_skull",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},	{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:blackstone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 62
+							}
+						}
+					]
+				}
+			]
+		  },
+		{
+			"rolls": {
+			  "min": 1,
+			  "max": 1
+			},
+			"entries": [
+			  {
+				"weight" : 1,
+				"type": "minecraft:loot_table",
+				"value": "cultepack:entities/map"
+			  },
+			  {
+				"weight" : 6,
+				"type": "minecraft:loot_table",
+				"value": "cultepack:entities/vide"
+			  }
+			]
+		  },
+		{
+			"rolls": 4,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_leggings",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_boots",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:blaze_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:nether_star"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_axe",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:netherite_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:lodestone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 20
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:netherite_scrap",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+									"minecraft:custom_name": [
+									{
+									  "text": "Amélioration Chien ",
+									  "color":"blue",
+									  "italic" : false
+									},
+									{
+									  "text": "[lvl-6]",
+									  "color":"light_purple",
+									  "italic" : false
+									}
+								],
+									"minecraft:lore": [
+									  	{
+									  "text": "Offre à ton chien :",
+									  "color":"dark_aqua",
+									  "italic" : false
+									},
+									{
+									  "text": ""
+									},
+										{
+									  "text": "+2 attaque",
+									  "color":"gold",
+									  "italic" : false
+									},
+									{
+									  "text": ""
+									},
+									{
+									  "text": "+50 vie",
+									  "color":"gold",
+									  "italic" : false
+									},
+									{
+									  "text": ""
+									},
+									{
+									  "text": "+vitesse",
+									  "color":"gold",
+									  "italic" : false
+									}
+									],
+									"minecraft:custom_model_data": {
+									"strings": [
+									  "chien_6"
+									]
+								  },
+									"minecraft:custom_data": {
+									  "Tags": "chien_6"
+									}
+								  }						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": {
+									  "text": "Cristal d'Éxperience",
+									  "color":"yellow",
+									  "italic" : false
+									},
+								"minecraft:lore": [
+									{
+									  "text": "S'utilise à la forge",
+									  "color":"dark_purple",
+									  "italic" : false
+									},
+									{
+									  "text": "de l'End pour améliorer",
+									  "color":"dark_purple",
+									  "italic" : false
+									},
+									[
+									{
+									  "text": "le ",
+									  "color":"dark_purple",
+									  "italic" : false
+									},
+									{
+									  "text": "Sceptre de ",
+									  "color":"gold",
+									  "italic" : false
+									},
+									{
+									  "text": "Base",
+									  "color":"light_purple",
+									  "italic" : false
+									},
+									{
+										"text" : ".",
+									  "italic" : false
+									}
+									]	
+								],	
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "cristal_xp"
+									]
+								  },
+								"minecraft:custom_data": {
+								  "Tags": [
+									"cristal_xp"
+								  ]
+								}
+							  }
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							  "components":{
+                                  "minecraft:custom_name": 
+                        {
+									  "text": "Pierre d'Invocation ★★★",
+									  "color":"gold",
+									  "italic" : false
+									},
+                                     "minecraft:lore": [
+                          {
+									  "text": "Contient une âme",
+									  "italic" : false
+									},
+									{
+									  "text": "",
+									  "italic" : false
+									},{
+									  "text": "Utilisée à un Autel",
+									  "color":"dark_gray",
+									  "italic" : false
+									},
+									{
+									  "text": "sacrificiel, libère un",
+									  "color":"dark_gray",
+									  "italic" : false
+									},
+                  {
+									  "text": "puissant boss au niveau",
+									  "color":"dark_gray",
+									  "italic" : false
+									},
+                  {
+									  "text": "de la pierre",
+									  "color":"dark_gray",
+									  "italic" : false
+									}
+                            ],
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "rune_invoc"
+									]
+								  },
+								"minecraft:custom_data": {
+								  "Tags": [
+									"pierre_invoc_3"
+								  ]
+								}
+							  }
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+						"components":{
+                             "minecraft:custom_name": 
+                        {
+									  "text": "Pierre d'Invocation ★★",
+									  "color":"gold",
+									  "italic" : false
+									},
+                                "minecraft:lore": [
+                          {
+									  "text": "Contient une âme",
+									  "italic" : false
+									},
+									{
+									  "text": "",
+									  "italic" : false
+									},{
+									  "text": "Utilisée à un Autel",
+									  "color":"dark_gray",
+									  "italic" : false
+									},
+									{
+									  "text": "sacrificiel, libère un",
+									  "color":"dark_gray",
+									  "italic" : false
+									},
+                  {
+									  "text": "puissant boss au niveau",
+									  "color":"dark_gray",
+									  "italic" : false
+									},
+                  {
+									  "text": "de la pierre",
+									  "color":"dark_gray",
+									  "italic" : false
+									}
+                        ],
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "rune_invoc"
+									]
+								  },
+								"minecraft:custom_data": {
+								  "Tags": [
+									"pierre_invoc_2"
+								  ]
+								}
+							  }
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:nether_star"
+				}
+			]
+		}
+	]
+}

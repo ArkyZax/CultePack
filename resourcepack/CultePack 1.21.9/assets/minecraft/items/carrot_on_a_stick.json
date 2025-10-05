@@ -1,0 +1,77 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {	
+			"type": "model",
+			"model": "item/carrot_on_a_stick"
+	 	 },
+	  
+	
+	
+	  "cases": [
+		{
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/carrot_on_a_stick/base"
+			},
+			"when": [
+			  "base"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/carrot_on_a_stick/triple_explo"
+			},
+			"when": [
+			  "triple_explo"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/carrot_on_a_stick/invocation_golem"
+			},
+			"when": [
+			  "invocation_golem"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/carrot_on_a_stick/experience"
+			},
+			"when": [
+			  "experience"
+			]
+		  },{
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/carrot_on_a_stick/aimant"
+			},
+			"when": [
+			  "aimant"
+			]
+		  },
+		  {
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/carrot_on_a_stick/scaner"
+			},
+			"when": [
+			  "scaner"
+			]
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "item/carrot_on_a_stick/teleportation"
+		  },
+		  "when": [
+			"tp"
+		  ]
+	  }
+	]
+  }
+}

@@ -2,7 +2,9 @@
 	"pack": {
 		"supported_formats": 88.0,
 		"pack_format": 88.0,
-		"description": "Pack Du Serveur Culte du Cube [1.21.9]"
+		"description": "Pack Du Serveur Culte du Cube [1.21.10]",
+   		"min_format": 88.0,
+ 	    "max_format": 88.0
 	}
 }
 	

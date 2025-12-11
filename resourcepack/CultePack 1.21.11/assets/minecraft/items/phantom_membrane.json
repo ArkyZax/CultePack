@@ -1,0 +1,22 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {	
+			"type": "model",
+			"model": "item/phantom_membrane"
+	 	 },
+	  
+	  "cases": [
+		{
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/phantom_membrane/piece_armure"
+			},
+			"when": [
+			  "piece_armure"
+			]
+		  }
+		]
+	}
+}

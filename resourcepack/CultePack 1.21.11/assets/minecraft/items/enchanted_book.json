@@ -1,0 +1,22 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {	
+			"type": "model",
+			"model": "item/enchanted_book"
+	 	 },
+	  
+	  "cases": [
+		{
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "item/enchanted_book/livre_base"
+			},
+			"when": [
+			  "livre_base"
+			]
+		  }
+	]
+	}
+}

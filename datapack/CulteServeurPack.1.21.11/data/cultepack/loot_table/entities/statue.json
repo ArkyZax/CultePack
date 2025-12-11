@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warden_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": {
+									  "text": "Snoop Statue",
+									  "color":"aqua",
+									  "italic" : false
+									},
+								"minecraft:lore": [
+									{
+									  "text": ""
+									},
+									{
+									  "text": "Clique droit pour la poser.",
+									  "color":"yellow",
+									  "italic" : true
+									},{
+									  "text": "Sneak dessus pour la ramasser.',",
+									  "color":"yellow",
+									  "italic" : true
+									},
+									{
+									  "text": "S'anime à moins de 10 blocs.",
+									  "color":"yellow",
+									  "italic" : true
+									}
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+										"statue_og"
+									]
+								   },
+								"minecraft:entity_data": {
+								  "id": "armor_stand",
+								  "Invisible": true,
+								  "DisabledSlots": 4144959,
+								  "Tags": [
+									"statue"
+								  ],
+								  "equipment": {
+									"head":{
+									
+									  "id": "carved_pumpkin",
+									  "components":{
+										"custom_model_data":{
+											"strings": [
+												"statue_og"
+											]
+										   }
+									  },
+									  "count": 1
+									}
+								}
+								}
+							  }
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -2,11 +2,13 @@
 	"temperature": 0.5,
 	"downfall": 0.2,
 	"has_precipitation": true,
+    "attributes": {
+      "visual/sky_color": 14745855,
+      "visual/fog_color": 5181439,
+      "visual/water_fog_color": 2326779
+    },
 	"effects": {
-		"sky_color": 14745855,
-		"fog_color": 5181439,
 		"water_color": 247005,
-		"water_fog_color": 2326779,
 		"grass_color": 53556,
 		"foliage_color": 418048
 	},

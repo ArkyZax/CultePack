@@ -4,7 +4,7 @@
 		"property": "custom_model_data",
 		"fallback": {	
 			"type": "model",
-			"model": "block/carved_pumpkin"
+			"model": "minecraft:block/carved_pumpkin"
 	 	 },
 	  
 	  "cases": [

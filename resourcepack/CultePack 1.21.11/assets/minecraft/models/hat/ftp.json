@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "item/lunette",
-		"2": "item/chaine",
-		"particle": "item/lunette"
+		"1": "block/lunette",
+		"2": "block/chaine",
+		"particle": "block/lunette"
 	},
 	"elements": [
 		{

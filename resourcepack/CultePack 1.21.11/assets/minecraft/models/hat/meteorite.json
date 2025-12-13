@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [256, 256],
 	"textures": {
-		"0": "item/meteorite",
-		"particle": "item/meteorite"
+		"0": "block/meteorite",
+		"particle": "block/meteorite"
 	},
 	"elements": [
 		{

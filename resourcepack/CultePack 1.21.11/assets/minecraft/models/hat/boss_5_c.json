@@ -3,9 +3,9 @@
 	"ambientocclusion": false,
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "item/boss_5",
-		"1": "item/boss_5_effect",
-		"particle": "item/boss_5_effect"
+		"0": "block/boss_5",
+		"1": "block/boss_5_effect",
+		"particle": "block/boss_5_effect"
 	},
 	"elements": [
 		{

@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/roi_zombie_head",
-		"1": "item/roi_zombie_head_xp",
-		"particle": "item/roi_zombie_head"
+		"0": "block/roi_zombie_head",
+		"1": "block/roi_zombie_head_xp",
+		"particle": "block/roi_zombie_head"
 	},
 	"elements": [
 		{

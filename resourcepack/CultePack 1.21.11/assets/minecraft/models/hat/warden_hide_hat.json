@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/warden_crown",
-		"1": "item/warden_top",
-		"2": "item/warden_brim",
-		"3": "item/brim_bits",
-		"4": "item/warden_horn",
-		"5": "item/warden_sculk_tendrils",
-		"particle": "item/warden_crown"
+		"0": "block/warden_crown",
+		"1": "block/warden_top",
+		"2": "block/warden_brim",
+		"3": "block/brim_bits",
+		"4": "block/warden_horn",
+		"5": "block/warden_sculk_tendrils",
+		"particle": "block/warden_crown"
 	},
 	"elements": [
 		{

@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "item/spider_boy"
+		"1": "block/spider_boy"
 	},
 	"elements": [
 		{

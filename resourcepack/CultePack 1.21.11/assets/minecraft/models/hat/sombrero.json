@@ -1,8 +1,8 @@
 {
 	
 	"textures": {
-		"0": "item/carved_pumpkin",
-		"particle": "item/carved_pumpkin"
+		"0": "block/sombrero",
+		"particle": "block/sombrero"
 	},
 	"elements": [
 		{

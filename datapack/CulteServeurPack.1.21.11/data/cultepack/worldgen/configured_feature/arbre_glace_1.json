@@ -54,7 +54,7 @@
         "type": "minecraft:pale_moss",
         "leaves_probability": 0.4,
         "trunk_probability": 1,
-        "ground_probability": 1
+        "ground_probability": 0.8
       }
     ]
   }

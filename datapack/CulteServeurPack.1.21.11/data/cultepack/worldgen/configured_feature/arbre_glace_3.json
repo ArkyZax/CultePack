@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [
+      {
+        "type": "minecraft:pale_moss",
+        "leaves_probability": 0.2,
+        "trunk_probability": 0.6,
+        "ground_probability": 0.8
+      },
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0
+      }
+    ],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "offset": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 2,
+        "min_inclusive": 0
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 3,
+        "min_inclusive": 2
+      },
+      "height": 3
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 14,
+          "data": {
+            "Name": "minecraft:pale_oak_leaves"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:oxidized_copper_bulb",
+            "Properties": {
+              "lit": "true",
+              "powered": "true"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      ]
+    },
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 8,
+      "lower_size": 2,
+      "upper_size": 4
+    },
+    "trunk_placer": {
+      "type": "minecraft:forking_trunk_placer",
+      "base_height": 10,
+      "height_rand_a": 5,
+      "height_rand_b": 8
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight":10,
+          "data": {
+            "Name": "minecraft:pale_oak_wood"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      ]
+    }
+  }
+}

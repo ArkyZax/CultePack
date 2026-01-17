@@ -1,6 +1,6 @@
 {
-  "temperature": 0.8,
-  "downfall": 0,
+  "temperature": -1,
+  "downfall": 0.9,
   "has_precipitation": true,
       "attributes": {
       "visual/sky_color": 49151,
@@ -34,7 +34,19 @@
   "features": [
     [
     "cultepack:arbre_glace_1", 
-    "cultepack:arbre_glace_2"
+    "cultepack:arbre_glace_2",
+    "cultepack:arbre_glace_foret_1",
+    "cultepack:arbre_glace_3",
+    "spring_water"
+    ],
+    [
+      "iceberg_packed",
+      "ice_patch",
+      "forest_rock",
+      "minecraft:iceberg_blue"
+      
+      
+      
     ],
     [
       "minecraft:pale_garden_flowers",

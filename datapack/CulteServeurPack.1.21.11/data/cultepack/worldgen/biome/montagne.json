@@ -5,15 +5,18 @@
     		      "attributes": {
       "visual/sky_color": 5006224,
       "visual/fog_color": 2237221,
-      "visual/water_fog_color": 329011
+      "visual/water_fog_color": 329011,
+       "minecraft:audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "montagnes"
+      }
+    }
     },
     "effects": {
       "water_color": 13726,
       "grass_color": 1923601,
-      "foliage_color": 1986077,
-      "ambient_sound": {
-        "sound_id": "montagnes"
-      }
+      "foliage_color": 1986077
+     
     },
     "spawners": {
       "monster": [

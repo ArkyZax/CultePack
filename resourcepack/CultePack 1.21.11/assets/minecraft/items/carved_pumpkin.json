@@ -1,10 +1,12 @@
 {
+	"oversized_in_gui": true,
 	"model": {
 		"type": "select",
 		"property": "custom_model_data",
 		"fallback": {	
 			"type": "model",
 			"model": "minecraft:block/carved_pumpkin"
+			
 	 	 },
 	  
 	  "cases": [
@@ -12,6 +14,7 @@
 			"model": {
 			  "type": "minecraft:model",
 			  "model": "hat/sombrero"
+			  
 			},
 			"when": [
 			  "sombrero"

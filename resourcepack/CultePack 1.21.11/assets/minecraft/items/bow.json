@@ -1,7 +1,9 @@
 {
+	"oversized_in_gui": true,
 	"model": {
 	  "type": "minecraft:select",
 	  "property": "custom_model_data",
+	  
 	  "cases": [
 		{
 		  "model": {

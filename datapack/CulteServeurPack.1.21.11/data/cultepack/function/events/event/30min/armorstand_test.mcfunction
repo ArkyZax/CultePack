@@ -1,9 +1,9 @@
 
-execute at @s run summon tnt ~1 ~1 ~ {Fuse:0}
-execute at @s run summon tnt ~ ~1 ~1 {Fuse:0}
-execute at @s run summon tnt ~-1 ~1 ~ {Fuse:0}
-execute at @s run summon tnt ~ ~1 ~-1 {Fuse:0}
-execute at @s run summon tnt ~ ~0 ~ {Fuse:0}
+execute at @s run summon tnt ~1 ~1 ~ {fuse:0}
+execute at @s run summon tnt ~ ~1 ~1 {fuse:0}
+execute at @s run summon tnt ~-1 ~1 ~ {fuse:0}
+execute at @s run summon tnt ~ ~1 ~-1 {fuse:0}
+execute at @s run summon tnt ~ ~0 ~ {fuse:0}
 execute at @s run setblock ~ ~-5 ~ crying_obsidian replace
 execute at @s run setblock ~ ~-3 ~ crying_obsidian replace
 execute at @s run setblock ~ ~-4 ~ redstone_block replace

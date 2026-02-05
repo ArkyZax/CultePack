@@ -6,7 +6,7 @@
       "visual/sky_color": 16056557,
       "visual/fog_color": 14352574,
       "visual/water_fog_color": 61183,
-        "minecraft:audio/ambient_sounds": {
+      "minecraft:audio/ambient_sounds": {
       "mood": {
         "sound": "minecraft:ambient.warped_forest.mood",
         "tick_delay": 6000,
@@ -17,32 +17,28 @@
         "sound": "minecraft:ambient.warped_forest.additions",
         "tick_chance": 0.0111
       }
-    }
     },
-    "effects": {
-      "water_color": 2415359,
-      "grass_color": 65331,
-      "foliage_color": 16393675,
-      
-     
-      "music": [
-        {
-        "weight" : 1,
-        "data": {
+    "minecraft:audio/background_music": {
+      "default": {
         "sound": "minecraft:music.nether.warped_forest",
         "min_delay": 12000,
         "max_delay": 24000,
         "replace_current_music": false
-        }
       }
-      ],
-      "particle": {
-        "options": {
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
           "type": "minecraft:glow_squid_ink"
-          
         },
         "probability": 0.0002
       }
+    ]
+    },
+    "effects": {
+      "water_color": 2415359,
+      "grass_color": 65331,
+      "foliage_color": 16393675
     },
     "spawners": {
       "monster": [
